@@ -1,0 +1,91 @@
+body {
+    background: url(img/background.png);
+    background-size: cover;
+    z-index: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#desktop-title {
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#desktop-title-text {
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#my-stuff {
+    width: 13%;
+    height: 10%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 0px;
+}
+
+#my-stuff-text {
+    font-size: 30px;
+    position: absolute;
+    top: 65%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+#my-stuff-pointer {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+
+.icons {
+    width: 140px;
+    height: 160px;
+}
+
+.icon-name {
+    font-size: 30px;
+}
+
+#malodux {
+    display: block;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#malodux-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+#malodux-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
